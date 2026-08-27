@@ -28,7 +28,7 @@ jobs:
           card: top-langs
           options: 'username=wshamroukh&layout=compact&theme=dark'
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Commit cards
         run: |
